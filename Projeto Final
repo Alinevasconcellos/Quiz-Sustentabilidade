@@ -1,0 +1,144 @@
+pontos = 0
+tot = 10
+import time
+print('                     Ola, seja bem ao Quiz sobre Sustentabilidade ')
+time.sleep(2)
+print('Aqui você vai aprender a cuidar do nosso planeta de um jeito bem divertido!!!')
+time.sleep(2)
+nome = str(input('Me diz o seu nome:'))
+idade = int(input('E qual a sua idade:'))
+print('=-'*60)
+time.sleep(1)
+print('                        Olá {}, seja bem vindo ao nosso Quiz'.format(nome))
+time.sleep(3)
+print('=-'*60)
+print ('   Agora vamos começar o nosso jogo')
+time.sleep(1)
+print('Processando...')
+print('=-'*60)
+time.sleep(3)
+print('-----O QUE É RECICLAGEM?-----')
+time.sleep(1)
+print('1 - Jogar fora o lixo produzido\n2 - Coletar todo tipo de material existente em lixos recicláveis\n3 - Nome dado para todo o processo do lixo após seu descarte\n4 - Processo de transformação de materiais usados em novos produtos para consumo')
+time.sleep(2)
+perg1= int(input('Digite sua resposta correta:'))
+if perg1 == 1:
+    print('Parabéns sua resposta está correta')
+    pontos +=1
+else:
+    print('Infelizmente você errou')
+print('=-'*60)
+time.sleep(3)
+print('-------QUAL É O CUIDADO A SER TOMADO ANTES DE ENVIAR UM DETERMINADO MATERIAL PARA RECICLAGEM?----------')
+time.sleep(1)
+print('1 - Cortá-lo em pedaços pequenos\n2 - Misturá-lo com materiais do mesmo gênero\n3 - Limpá-lo \n4 - Colocá-lo numa sacola')
+time.sleep(2)
+perg2 = int(input('Digite sua resposta correta:'))
+if perg2 == 3:
+    print('Parabéns sua resposta está correta')
+    pontos += 1
+else:
+    print('Infelizmente você errou')
+print('=-'*60)
+time.sleep(3)
+print('--------COMO SEPARAR CORRETAMENTE SEU LIXO?---------')
+time.sleep(1)
+print('1 - Juntar tudo na lixeira, pois os prédios já fazem o trabalho de separação\n2 - Separar o lixo orgânico que são restos de alimentos, papel sujo e lixo sanitário dos resíduos sólidos como plástico, vidro, papel, metal e embalagens longa vida\n3 - Deixar plásticos sujos junto com lixo orgânico\n4 - Juntar todo tipo de lixo e descartar em ponto de coleta')
+time.sleep(2)
+perg3 = int(input('Digite sua resposta correta:'))
+if perg3 == 2:
+    print('Parabéns sua resposta está correta')
+    pontos += 1
+else:
+    print('Infelizmente você errou')
+print('=-'*60)
+time.sleep(3)
+print('--------QUAIS SÃO AS CORES LIXEIRAS COLETIVAS?---------')
+time.sleep(1)
+print('1 - Branco - Cinza - Laranja - Marrom - Preto - Roxo - Verde - Vermelho - Amarelo - Azul\n2 - Azul - Rosa - Branco - Laranja - Marrom - Preto - Vermelho - Amarelo - Cinza - Roxo\n3 - Laranja - Azul - Marrom - Preto -  Verde - Amarelo - Vinho - Cinza - Roxo - Branco\n4- Preto  - Marrom  - Cinza - Roxo - Branco  - Verde - Lilás -  Laranja - Azul - Amarelo')
+time.sleep(2)
+perg4 = int(input('Digite sua resposta correta:'))
+if perg4 == 1:
+    print('Parabéns sua resposta está correta')
+    pontos += 1
+else:
+    print('Infelizmente você errou')
+print('=-'*60)
+time.sleep(3)
+print('--------COMO PRESERVAR ÁRVORES E FLORESTAS?---------')
+time.sleep(1)
+print('1 - Construindo uma casa na árvore\n2 - Reciclando papéis, jornais e revistas\n3 - Reutilizando metais e vidros\n4 - Construindo prédios enormes em lugares onde habitam animais e árvores')
+time.sleep(2)
+perg5 = int(input('Digite sua resposta correta:'))
+if perg5 == 2:
+    print('Parabéns sua resposta está correta')
+    pontos += 1
+else:
+    print('Infelizmente você errou')
+print('=-'*60)
+time.sleep(3)
+print('--------COMO CONSUMIR DE FORMA CONSCIENTE?---------')
+time.sleep(1)
+print('1 - Trocando todos os nossos objetos sempre que um novo do mesmo tipo for lançado\n2 - Usar a mangueira para lavar o quintal e o carro\n3 - Utilizando os recursos naturais para satisfazer nossas necessidades e das gerações futuras\n4 - Adquirindo qualquer tipo de produto se for barato')
+perg6 = int(input('Digite sua resposta correta:'))
+if perg6 == 3:
+    print('Parabéns sua resposta está correta')
+    pontos += 1
+else:
+    print('Infelizmente você errou')
+print('=-'*60)
+time.sleep(3)
+print('--------UMA DAS FORMAS DE COLABORAR COM A PRESERVAÇÃO DO MEIO AMBIENTE É REDUZIR A PRODUÇÃO DE LIXOS. MAS COMO?---------')
+time.sleep(1)
+print('1 - Usando produtos com embalagens recicláveis\n2 - Reutilizando os materiais e objetos sempre que possível\n3 - Apoiando a reciclagem\n4 - Todas as anteriores')
+time.sleep(2)
+perg7 = int(input('Digite sua resposta correta:'))
+if perg7 == 4:
+    print('Parabéns sua resposta está correta')
+    pontos += 1
+else:
+    print('Infelizmente você errou')
+print('=-'*60)
+time.sleep(3)
+print('--------QUE TIPO DE ÁGUA É IDEIAL PARA TOMARMOS?---------')
+time.sleep(1)
+print('1 - Água de Rios limpos\n2 - Água filtrada ou fervida\n3 - Água das chuvas\n4 - Águas claras')
+time.sleep(2)
+perg8 = int(input('Digite sua resposta correta:'))
+if perg8 == 2:
+    print('Parabéns sua resposta está correta')
+    pontos += 1
+else:
+    print('Infelizmente você errou')
+print('=-'*60)
+time.sleep(3)
+print('--------QUAL O TIPO DE OBJETO PARA CADA COR DO CESTO É:--------')
+time.sleep(1)
+print('1 - Plástico - Verde; Metal - Amarelo; Papel - Vermelho; Vidro - Azul; Orgânico - Marrom\n2 - Plástico - Azul; Metal - Amarelo; Papel - Vermelho; Vidro - Verde; Orgânico - Marrom\n3 - Plástico - Amarelo; Metal - Marrom; Papel - Verde; Vidro - Vermelho; Orgânico - Azul\n4 - Plástico - Marrom; Metal - Verde; Papel - Azul; Vidro - Amarelo; Orgânico - Vermelho')
+time.sleep(2)
+perg9 = int(input('Digite sua resposta correta:'))
+if perg9 == 2:
+    print('Parabéns sua resposta está correta')
+    pontos += 1
+else:
+    print('Infelizmente você errou')
+print('=-'*60)
+time.sleep(3)
+print('--------QUE ATITUDE AJUDA A EVITAR O DESPERDÍCIO DE ÁGUA?---------')
+time.sleep(1)
+print('1 - Tomar um banho por um longo tempo\n2 - Lavar o quintal com mangueira\n3 - Fecha o chuveiro para ensaboar-se\n4 - Usar a água a vontade quando precisar')
+time.sleep(2)
+perg10 = int(input('Digite sua resposta correta:'))
+if perg10 == 3:
+    print('Parabéns sua resposta está correta')
+    pontos += 1
+else:
+    print('Infelizmente você errou')
+print('=-'*60)
+time.sleep(3)
+print('{} de {} perguntas voce acertou {}'.format(nome,tot,pontos))
+perc = pontos/(tot/100)
+if perc >= 50:
+        print('Parabéns você acertou {}% das perguntas'.format(perc))
+else:
+    print('Infelizmente você não foi bem, perquise um  pouso mais e tente novamente')
